@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Install dependencies that are not handled by LinuxCompileDeps
-sudo apt update
-sudo apt install -y libtool-bin cmake flex bison libgtk-3-dev libgl1-mesa-dev python3-dev python3-numpy git patchelf
+#sudo apt update
+#sudo apt install -y libtool-bin cmake flex bison libgtk-3-dev libgl1-mesa-dev python3-dev python3-numpy git patchelf
 
 # Download LuxCore sources
 git clone https://github.com/LuxCoreRender/LuxCore.git
